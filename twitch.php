@@ -82,7 +82,7 @@ class TwitchPlugin extends Plugin
                     . $config->get('player.properties.width')
                     . '" style="'
                     . $config->get('player.properties.style')
-                    . '"></iframe>';
+                    . '" allowfullscreen></iframe>';
 
                 $chat = '<iframe src="http://www.twitch.tv/'
                     . $channel
@@ -94,7 +94,7 @@ class TwitchPlugin extends Plugin
                     . $config->get('chat.properties.width')
                     . '" style="'
                     . $config->get('chat.properties.style')
-                    . '"></iframe>';
+                    . '" allowfullscreen></iframe>';
 
                 $content = ($config->get('player.enabled') ? $player : '')
                     . ($config->get('chat.enabled') ? $chat : '');
