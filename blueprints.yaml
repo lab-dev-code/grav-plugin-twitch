@@ -1,0 +1,99 @@
+name: Twitch
+version: 1.0.0
+description: "**Twitch** converts markdown links into Twitch.tv embeds."
+icon: twitch
+author:
+    name: Dev'Code
+    email: lab.dev.code@gmail.com
+    url: http://lab.dev-code.fr/
+homepage: https://github.com/lab-dev-code/grav-plugin-twitch
+keywords: twitch, plugin
+bugs: https://github.com/lab-dev-code/grav-plugin-twitch/issues
+license: CC-BY
+
+form:
+    fields:
+        enabled:
+          type: toggle
+          label: Plugin status
+          highlight: 1
+          default: 0
+          options:
+            1: Enabled
+            0: Disabled
+          validate:
+            type: bool
+
+        player.spacer:
+            type: spacer
+            title: Player
+            underline: true
+        player.enabled:
+            type: toggle
+            label: Player status
+            highlight: 1
+            default: 1
+            options:
+                1: Enabled
+                0: Disabled
+            validate:
+                type: bool
+        player.properties.frameborder:
+            type: toggle
+            label: Player frameborder
+            highlight: 1
+            default: 0
+            options:
+                1: Enabled
+                0: Disabled
+            validate:
+                type: bool
+        player.properties.height:
+            type: text
+            label: Player height
+            default: 720
+        player.properties.width:
+            type: text
+            label: Player height
+            default: 75%
+        player.properties.style:
+            type: textarea
+            label: Player style
+            default: 'float: left;'
+
+        chat.spacer:
+            type: spacer
+            title: Chat
+            underline: true
+        chat.enabled:
+            type: toggle
+            label: Chat status
+            highlight: 1
+            default: 0
+            options:
+                1: Enabled
+                0: Disabled
+            validate:
+                type: bool
+        chat.properties.frameborder:
+            type: toggle
+            label: Chat frameborder
+            highlight: 1
+            default: 0
+            options:
+                1: Enabled
+                0: Disabled
+            validate:
+                type: bool
+        chat.properties.height:
+            type: text
+            label: Chat height
+            default: 720
+        chat.properties.width:
+            type: text
+            label: Chat height
+            default: 25%
+        chat.properties.style:
+            type: textarea
+            label: Chat style
+            default: 'float: right;'

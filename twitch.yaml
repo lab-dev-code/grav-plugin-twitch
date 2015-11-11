@@ -1,0 +1,17 @@
+enabled: true
+
+player:
+    enabled: true
+    properties:
+        frameborder: 0
+        height: 720
+        width: 75%
+        style: 'float: left;'
+
+chat:
+    enabled: true
+    properties:
+        frameborder: 0
+        height: 720
+        width: 25%
+        style: 'float: right'
