@@ -48,7 +48,7 @@ chat:
         style: 'float: right'
 ```
 
-> Note that those settings work pretty well with the default [Grav][grav] [Antimatter][antimatter] theme for a stream focused page layout but should probably be modified depending on your theme and your usage.
+> Note: those settings work pretty well with the default [Grav][grav] [Antimatter][antimatter] theme for a stream focused page layout but should probably be modified depending on your theme and your usage.
 
 ## Config File
 
