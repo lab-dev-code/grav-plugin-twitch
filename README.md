@@ -1,6 +1,7 @@
 # Grav Twitch Plugin
 
 [![Join the chat at https://gitter.im/lab-dev-code/grav-plugin-twitch](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/lab-dev-code/grav-plugin-twitch?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/67493f66-260c-4f37-96ae-0667888a4f2f/mini.png)](https://insight.sensiolabs.com/projects/67493f66-260c-4f37-96ae-0667888a4f2f)
 
 `Twitch` is a simple [Grav][grav] Plugin that converts markdown links into [Twitch.tv][twitch.tv] embeds.
 
