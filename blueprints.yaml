@@ -1,6 +1,6 @@
 name: Twitch
 version: 1.1.0
-description: "**Twitch** converts markdown links into Twitch.tv embeds."
+description: "**Twitch** is a simple plugin that converts markdown links into Twitch.tv embeds."
 icon: twitch
 author:
     name: Dev'Code
