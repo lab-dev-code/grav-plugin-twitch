@@ -9,7 +9,6 @@
 
 namespace Grav\Plugin;
 
-use Grav\Common\Grav;
 use Grav\Common\Plugin;
 use Grav\Common\Page\Page;
 use RocketTheme\Toolbox\Event\Event;
