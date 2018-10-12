@@ -71,7 +71,7 @@ class TwitchPlugin extends Plugin
                 $channel = $matches[1];
 
                 // build the replacement embeded HTML string
-                $player = '<iframe src="http://player.twitch.tv/?channel='
+                $player = '<iframe src="https://player.twitch.tv/?channel='
                     . $channel
                     . '" frameborder="'
                     . $config->get('player.properties.frameborder')
@@ -83,7 +83,7 @@ class TwitchPlugin extends Plugin
                     . $config->get('player.properties.style')
                     . '" allowfullscreen></iframe>';
 
-                $chat = '<iframe src="http://www.twitch.tv/'
+                $chat = '<iframe src="https://www.twitch.tv/'
                     . $channel
                     . '/chat" frameborder="'
                     . $config->get('chat.properties.frameborder')
